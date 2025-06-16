@@ -1,0 +1,232 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fefaf6;
+  color: #4e342e;
+  line-height: 1.6;
+}
+
+/* Contenedor general */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Header */
+header {
+  background-color: #6d4c41;
+  color: white;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 2rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #d7ccc8;
+}
+
+/* Banner */
+.banner {
+  background: url('../images/banner-cafeteria.jpg') center/cover no-repeat;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 1.5rem auto 3rem auto;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.banner::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.banner h1 {
+  position: relative;
+  font-size: 2.8rem;
+  color: white;
+  z-index: 1;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+/* Secciones generales */
+main {
+  padding: 0 1.5rem 4rem;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+section h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #6d4c41;
+  margin: 0.5rem auto;
+  border-radius: 2px;
+}
+
+/* Menú con imágenes y precios */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.menu-item {
+  background-color: #fff3e0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.menu-info {
+  padding: 1rem;
+}
+
+.menu-item h3 {
+  font-size: 1.3rem;
+  color: #5d4037;
+  margin-bottom: 0.5rem;
+}
+
+.menu-item p {
+  margin-bottom: 0.8rem;
+}
+
+.price {
+  font-weight: bold;
+  color: #4e342e;
+  font-size: 1.1rem;
+}
+
+/* Sobre nosotros y contacto */
+.about, .contact {
+  background-color: #fbe9e7;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Contacto formulario */
+.contact form {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.contact button {
+  padding: 0.9rem;
+  background-color: #6d4c41;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: #4e342e;
+}
+
+/* Footer */
+footer {
+  background-color: #4e342e;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.95rem;
+  margin-top: 4rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .banner h1 {
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+}
