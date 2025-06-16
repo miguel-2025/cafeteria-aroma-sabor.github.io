@@ -1,4 +1,4 @@
-# Cafetería El Buen Sabor
+# Cafetería aroma sabor
 
 Bienvenidos al repositorio de la Cafetería El Buen Sabor. Este sitio web presenta un diseño claro, estructurado con HTML5 semántico y enfocado en accesibilidad y buena experiencia de usuario.
 
@@ -10,7 +10,7 @@ Bienvenidos al repositorio de la Cafetería El Buen Sabor. Este sitio web presen
 
 ## Publicación
 
-El sitio está disponible en GitHub Pages: [Ver Sitio Web](https://miguel-2025.github.io/cafeteria-el-buen-sabor)
+El sitio está disponible en GitHub Pages: [Ver Sitio Web](https://miguel-2025.github.io/cafeteria-el-buen-sabor/index.html)
 
 ## Accesibilidad
 
