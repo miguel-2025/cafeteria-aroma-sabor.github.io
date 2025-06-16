@@ -10,7 +10,7 @@ Bienvenidos al repositorio de la Cafetería El Buen Sabor. Este sitio web presen
 
 ## Publicación
 
-El sitio está disponible en GitHub Pages: [Ver Sitio Web](https://cafeteria-aroma-sabor.github.io/index.html)
+El sitio está disponible en GitHub Pages: [Ver Sitio Web](https://miguel-2025.github.io/cafeteria-aroma-sabor.github.io/)
 
 ## Accesibilidad
 
