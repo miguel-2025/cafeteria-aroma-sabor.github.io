@@ -40,5 +40,5 @@ Este sitio cumple buenas prácticas de accesibilidad:
 
 ## 📜 Licencia
 
-Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+Este proyecto está bajo la licencia [Contactar](https://wa.me/51980728724?text=Hola%2C%20me%20gust%C3%B3%20mucho%20tu%20p%C3%A1gina%20web.%20Me%20gustar%C3%ADa%20ponerme%20en%20contacto%20contigo%20para%20conversar%20m%C3%A1s%20al%20respecto.).
 
